@@ -1,0 +1,359 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial, sans-serif";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main Container */
+
+.currency-container {
+  position: relative;
+  background: #f6f6f6;
+  width: 360px;
+  height: 730px;
+  overflow: hidden;
+}
+
+.cchead {
+  position: absolute;
+  width: 240px;
+  height: 29px;
+  top: 50px;
+  left: 59px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29.3px;
+  align-items: center;
+  text-align: center;
+  color: #1f2261;
+  margin: 0px;
+  z-index: 5;
+}
+
+.cccontent {
+  position: absolute;
+  width: 320px;
+  height: 38px;
+  top: 89px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  color: #808080;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  text-align: center;
+  margin: 0px;
+  z-index: 5;
+}
+.ellipse2 {
+  position: absolute;
+  width: 751px;
+  height: 751px;
+  top: -393px;
+  left: -302px;
+  gap: 0px;
+  opacity: 0px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #eaeafe 0%,
+    rgba(221, 246, 243, 0) 100%
+  );
+  z-index: 2;
+}
+
+.primarybox {
+  position: absolute;
+  width: 320px;
+  height: 268px;
+  top: 168px;
+  left: 20px;
+  border-radius: 20px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #e7e7ee;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px 0px #0000000d;
+  z-index: 5;
+}
+
+.ellipse1 {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 131px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #c4c4c4;
+  z-index: -1;
+}
+.ccendtext {
+  position: absolute;
+  width: 230px;
+  height: 19px;
+  top: 466px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #a1a1a1;
+}
+.exchange-rate {
+  position: absolute;
+  width: 164px;
+  height: 21px;
+  top: 498px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #000000;
+}
+
+.firstbox {
+  position: absolute;
+  width: 280px;
+  height: 77px;
+  top: 20px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.middle {
+  position: absolute;
+  width: 280px;
+  height: 44px;
+  top: 112px;
+  left: 20px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid transparent;
+  animation-duration: 2ms;
+}
+.secondbox {
+  position: absolute;
+  width: 280px;
+  height: 77px;
+  top: 171px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+}
+.flag {
+  width: 100px;
+  height: 40px;
+}
+.firstinputdata {
+  position: absolute;
+  width: 141px;
+  height: 45px;
+  top: 32px;
+  left: 139px;
+  gap: 0px;
+  border-radius: 7px;
+  opacity: 0px;
+  background: #efefef;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23.44px;
+  align-items: right;
+  text-align: right;
+  border-color: transparent;
+  outline: none;
+  padding-right: 15px;
+}
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.firstname {
+  position: absolute;
+  width: 53px;
+  height: 18px;
+  top: 0px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17.58px;
+  color: #989898;
+}
+.firstselectflag {
+  position: absolute;
+  width: 123px;
+  height: 45px;
+  top: 32px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.firstflag {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  gap: 0px;
+  opacity: 0px;
+}
+.firstselectopt {
+  position: absolute;
+  width: 69px;
+  height: 25px;
+  top: 11px;
+  left: 58px;
+  gap: 0px;
+  opacity: 0px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.44px;
+  color: #26278d;
+}
+
+.secondinputdata {
+  position: absolute;
+  width: 141px;
+  height: 45px;
+  top: 32px;
+  left: 139px;
+  gap: 0px;
+  border-radius: 7px;
+  opacity: 0px;
+  background-color: #efefef;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23.44px;
+  text-align: right;
+  padding-right: 15px;
+  border: none;
+  appearance: none;
+  outline: none;
+}
+.secondname {
+  position: absolute;
+  width: 126px;
+  height: 18px;
+  top: 0px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17.58px;
+  color: #989898;
+}
+.secondselectflag {
+  position: absolute;
+  width: 123px;
+  height: 45px;
+  top: 32px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.secondselectopt {
+  position: absolute;
+  width: 69px;
+  height: 23px;
+  top: 11px;
+  left: 58px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.44px;
+  color: #26278d;
+  outline: none;
+  border: none;
+}
+.secondflag {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 0px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50%;
+}
+.swap-btn {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 0px;
+  left: 118px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #26278d;
+  border-radius: 50%;
+  z-index: 5;
+}
+.vector1 {
+  position: absolute;
+  width: 7.04px;
+  height: 15px;
+  top: 11px;
+  left: 22.23px;
+  gap: 0px;
+  opacity: 0px;
+}
+.vector2 {
+  position: absolute;
+  width: 7.05px;
+  height: 15px;
+  top: 16px;
+  left: 11.92px;
+  gap: 0px;
+  opacity: 0px;
+}
+.line {
+    position: absolute;
+  width: 280px;
+  height: 2px;
+  top: 22px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #E7E7EE;
+  z-index: 1;
+}
